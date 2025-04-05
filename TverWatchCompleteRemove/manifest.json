@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Tver 視聴済み動画削除",
+  "version": "1.1",
+  "description": "Tverで視聴済みの動画を表示させないようにする",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
